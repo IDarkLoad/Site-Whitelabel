@@ -350,6 +350,16 @@ strong {
   margin: 0 10px;
 }
 
+.featured-text2 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  margin: 0 10px;
+}
+
+.feature-box {
+  padding: 7px;
+}
+
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
