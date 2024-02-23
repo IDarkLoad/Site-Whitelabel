@@ -111,6 +111,14 @@ a:hover {
   background-color: #f1d9d9;
 }
 
+.section-padding2 {
+  background-color: #f1d9d9;
+}
+
+.section-padding3 {
+  background: linear-gradient(to bottom, #ffffff, #f1d9d9);
+}
+
 .section-type {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -143,6 +151,7 @@ a:hover {
   overflow: hidden;
   border-radius: 0;
   text-transform: uppercase;
+  background-color: #ffffff;
 }
 
 .custom-link::before {
@@ -341,7 +350,7 @@ strong {
   line-height: 2rem;
   font-weight: var(--font-weight-bold);
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 1;
 }
 
 .featured-number {
@@ -352,12 +361,24 @@ strong {
 
 .featured-text2 {
   color: var(--primary-color);
-  font-size: 4rem;
-  margin: 0 10px;
+  font-size: 2rem;
+  margin:10px;
+  line-height: 2rem;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.featured-text3 {
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin:10px;
+  line-height: 2rem;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
 }
 
 .feature-box {
-  padding: 7px;
+  padding: 10px;
 }
 
 /*---------------------------------------
@@ -803,6 +824,8 @@ strong {
 .social-icon {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-icon li {
@@ -817,7 +840,7 @@ strong {
 }
 
 .social-icon-link {
-  font-size: var(--p-font-size);
+  font-size: 35px;
   display: inline-block;
   vertical-align: top;
   padding: 4px;
