@@ -40,6 +40,14 @@
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 		gtag('config', 'AW-11242134833');
+
+		function triggerConversion() {
+    // Adicione o código do evento de conversão aqui
+    gtag('event', 'conversion', {'send_to': 'AW-11242134833/s_skCLLNppQZELG61fAp'});
+    
+    // Abre a janela do WhatsApp após o acionamento do evento
+    window.open('https://api.whatsapp.com/send?phone=5583996613039', '_blank');
+  }
 	</script>
 
 </head>
@@ -47,7 +55,7 @@
 <body id="top">
 
 	<main id="home" class="position-relative">
-		<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" class="whatsapp-float">
+		<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" class="whatsapp-float" onclick="triggerConversion()">
 			<i class="bi-whatsapp"></i>
 		</a>
 
@@ -113,7 +121,7 @@
 					<p class="container-text">É um prazer ter você aqui! Vamos aprender juntos sobre Psicoterapia e a
 						importância da Saúde Mental. Você também conhecerá como funciona o meu trabalho e poderá agendar
 						seu atendimento.</p>
-					<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank">
+					<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()">
 						<p class="contact-phone mb-0"><i class="bi-phone"></i> (83)-99661-3039</p>
 					</a>
 				</div>
@@ -124,7 +132,7 @@
 						atendimento.</p>
 					<div class="heroLinks d-flex flex-wrap align-items-center justify-content-center">
 						<a class="custom-link me-4" href="#about" data-hover="Saiba Mais">Saiba Mais</a>
-						<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank">
+						<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()">
 							<p class="contact-phone mb-0"><i class="bi-phone"></i> (83)-99661-3039</p>
 						</a>
 					</div>
@@ -166,40 +174,32 @@
 
 		<section class="section-padding" id="about">
 			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-6 col-md-6 col-12 order-md-2">
+				<div class="row flex-column-reverse flex-md-row">
+					<div class="col-lg-6 col-md-6 col-12 order-md-2 text-center">
 						<h2 class="mb-lg-3 mb-3">Entenda mais</h2>
-
 						<p>Você tem sentido que a ansiedade tem causado sofrimento e tem atrapalhado até os momentos
-							importantes da sua vida?
-							Níveis altos de ansiedade podem gerar sentimento de medo, de angústia, insônia, tensão
-							muscular, comportamento de evitação, entre outros. E tudo isso pode interferir no nosso
-							bem-estar e na nossa Saúde Mental.
-							Nesse momento, o processo de Psicoterapia é crucial! Como psicóloga, concentro minha prática
-							na compreensão e gestão da ansiedade, buscando identificar as causas e auxiliar no
-							desenvolvimento de estratégias para lidar de forma saudável com a ansiedade.</p>
+							importantes da sua vida? Níveis altos de ansiedade podem gerar sentimento de medo, de
+							angústia, insônia, tensão muscular, comportamento de evitação, entre outros. E tudo isso pode
+							interferir no nosso bem-estar e na nossa Saúde Mental. Nesse momento, o processo de
+							Psicoterapia é crucial! Como psicóloga, concentro minha prática na compreensão e gestão da
+							ansiedade, buscando identificar as causas e auxiliar no desenvolvimento de estratégias para
+							lidar de forma saudável com a ansiedade.</p>
 					</div>
-
 					<div class="col-lg-4 col-md-5 col-12 mx-auto order-md-1">
-						<div
-							class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
-							<p class="featured-text"><span class="featured-text3">Ansiedade</span> <br></p>
+						<div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
+							<p class="featured-text"><span class="featured-text3">Ansiedade</span><br></p>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
-
 		</section>
 
 		<section class="section-padding2" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="heroLinks d-flex flex-wrap align-items-center justify-content-center">
-						<a class="custom-link me-4" data-hover="whatsapp" href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank">Agende seu atendimento</a>
-						<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank"></a>
+						<a class="custom-link me-4" data-hover="whatsapp" href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()">Agende seu atendimento</a>
+						<a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()"></a>
 					</div>
 				</div>
 			</div>
@@ -330,7 +330,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="heroLinks d-flex flex-wrap align-items-center justify-content-center">
-						<a class="custom-link me-4" data-hover="whatsapp" href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank">Entre em contato</a>
+						<a class="custom-link me-4" data-hover="whatsapp" href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()">Entre em contato</a>
 						</a>
 					</div>
 
@@ -607,7 +607,7 @@
 					<h5 class="mb-lg-4 mb-3">Contatos</h5>
 
 					<p><a href="mailto:andrezaraissamp@gmail.com">andrezaraissamp@gmail.com</a></p>
-					<p><a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank">+55 (83) 99661-3039</a>
+					<p><a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()">+55 (83) 99661-3039</a>
 					</p>
 					<span><a
 							href=https://www.google.com/maps/place/Eco+Medical+Center+-+R.+Ant%C3%B4nio+Rabelo+J%C3%BAnior,+170+-+Miramar,+Jo%C3%A3o+Pessoa+-+PB,+58032-090/@-7.11805,-34.839428,17z/data=!3m1!4b1!4m6!3m5!1s0x7acdd370de96a15:0x3347c16d452258a9!8m2!3d-7.11805!4d-34.8368531!16s%2Fg%2F11bw43mc7b?entry=ttu target="_blank">R.
@@ -628,7 +628,7 @@
 						<li><a href="https://www.instagram.com/psi.andrezaraissa/" target="_blank"
 								class="social-icon-link bi-instagram"></a></li>
 
-						<li><a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank"
+						<li><a href="https://api.whatsapp.com/send?phone=5583996613039" target="_blank" onclick="triggerConversion()"
 								class="social-icon-link bi-whatsapp"></a></li>
 					</ul>
 				</div>
